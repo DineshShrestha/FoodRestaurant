@@ -314,7 +314,7 @@ section{
         background: #2b2640;
         transition: .4s;
     }
-    header .navbar .active{
+    header .navbar.active{
         top: 70px;
     }
     .navbar a{
@@ -351,5 +351,7 @@ section{
 @media (max-width: 575px){
     .col{
         width: 100%;
+        margin-bottom: 2rem;
     }
+
 }
